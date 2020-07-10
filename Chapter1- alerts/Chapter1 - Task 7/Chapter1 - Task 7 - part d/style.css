@@ -1,0 +1,60 @@
+.navbar{
+    background-color: #117A65 !important;
+    font-weight: 700 !important;
+
+}
+.nav-item>a {
+    color: white !important;
+    font-weight: 600 !important;
+}
+.navbar-text{
+    margin: 5px !important;
+}
+.fa-id-badge{
+    font-size: 32px !important;
+
+}
+@media only screen and (min-width: 750px){
+    .carousel-item>img{
+        height: 450px !important;
+    }
+    
+}
+.carousel-caption{
+    font-size: 22px !important;
+    color: black !important;
+    font-weight: 700 !important;
+}
+.fa-search,  .fa-headphones, .fa-thumbs-up{
+    font-size: 50px  !important;
+    margin-right: 10px;
+}
+@media only screen and (max-width:600px){
+    .card1, .card2, .card3{
+        width: 90% !important;
+    }
+
+}
+.card1, .card2, .card3{
+    font-size: 20px !important;
+    font-weight: 700 !important;
+    display: flex ;
+    width: 310px;
+    height: 100px;
+    background-color: white !important;
+    box-shadow: 2px 4px 5px gray;
+    justify-content: center;
+    margin-top: 10px !important;
+    align-items: center;
+    color: #117A65 !important;
+    
+}
+
+.cards-main{
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px !important;
+    width: 100%;
+    flex-wrap: wrap;
+}
