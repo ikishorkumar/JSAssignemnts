@@ -1,6 +1,4 @@
-var A = [24, 53, 78, 91, 12];
-document.write(" <b>Array itmes : </b>"+A +"<br>");
+var string = "472";
+var number = Number(string);
 
-A.sort((a, b) => a - b);
-document.write(" <b>The Smalest number is  : "+A[0]);
-
+document.write(" Value : "+string +"<br> Type  : "+typeof(string) +" <br> Value : "+number +"<br> Type  : "+typeof(number));

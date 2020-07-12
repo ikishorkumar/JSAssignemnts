@@ -1,5 +1,4 @@
-var A = [24, 53, 78, 91, 12];
-document.write(" <b>Array itmes : </b>"+A +"<br>");
+var message = "Ali and Sami are best friends. They play cricket and football together";
+var replaced = message.replace(/and/g,"&");
 
-A.sort((a, b) => b - a);
-document.write(" <b>The largest number is  : "+A[0]);
+document.write(" Message : "+message +"<br> After Replacement  : "+replaced);
